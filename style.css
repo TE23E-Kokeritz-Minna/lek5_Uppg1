@@ -1,5 +1,14 @@
 h1{
     text-align: center;
+    border: 2px solid black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+div{
+    width: 80%;
 }
 
 #top{
@@ -15,7 +24,34 @@ h1{
 
 #topRubrik{
     background-color: aqua;
-    border: 2px solid black;
     padding-left: 60px;
     padding-right: 60px;
+}
+
+#mellan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid orange;
+    min-height: 180px;
+}
+
+#vRubrik{
+    display: flex;
+    background-color: yellow;
+    width: 49%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#hRubrik{
+    display: flex;
+    background-color: pink;
+    width: 49%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
